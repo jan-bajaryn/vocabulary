@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Over</title>
+</head>
+<body>
+
+<div align="center">
+
+    <h1>You did it!</h1>
+    <h2>
+        <a id="homePage" th:href="@{${T(com.learnenglish.vocabulary.util.MyMappings).HOME}}">Link to the home page</a>
+    </h2>
+    <script>
+        document.getElementById("homePage").focus();
+    </script>
+
+</div>
+
+</body>
+</html>

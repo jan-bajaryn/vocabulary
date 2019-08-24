@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Low Term Realization</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>-->
+<!--    <script src="jqueryfile.js"></script>-->
+</head>
+<body>
+
+<div align="center">
+    <!--<h1 th:text="${__${T(com.learnenglish.vocabulary.util.AttributeNames).FILE_TO_LOW_T_CHALLENGE}__}">some text</h1>-->
+    <h1 style="color: red" th:utext="${__${T(com.learnenglish.vocabulary.util.AttributeNames).MESSAGE}__}"></h1>
+    <h2 th:text="${current_element_low_term.getTranslation()}">Translation there</h2>
+    <br/>
+    <h2>Try to choose answer:</h2>
+    <form id="form"
+          th:action="@{${T(com.learnenglish.vocabulary.util.MyMappings).LOW_TERM_REALIZATION}}"
+          method="post">
+        <label for="answer" id="labelforanswer">Enter your answer:</label>
+        <input autofocus id="answer" name="answer" type="text" autocomplete="off">
+        <input id="submit" type="submit" value="Submit">
+    </form>
+    <p th:text="${__${T(com.learnenglish.vocabulary.util.AttributeNames).REMAIN_ELEMENTS}__}"></p>
+</div>
+
+</body>
+</html>

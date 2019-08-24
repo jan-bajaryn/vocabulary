@@ -1,0 +1,20 @@
+clot--сгусток
+inn--отель
+headquarter--штаб-квартира
+scenery--пейзаж, декорация
+piston--поршень
+protrude--выпирать
+decay--распад
+withdraw--снимать
+plead--умолять, обратиться
+forge--ковать
+tip--совет, наклонять
+expire--истекать
+dedication--преданность
+ant--муравей
+deploy--развертывать
+discard--отбрасывать
+ternary--троичный
+assemble--собирать
+arbitrary--произвольный
+brief--краткий, записка, проинформировать

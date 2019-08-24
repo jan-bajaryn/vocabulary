@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Concatenation</title>
+</head>
+<body>
+
+<div align="center">
+
+    <h1>Concatenation page</h1>
+
+    <form method="post"
+          th:action="@{${T(com.learnenglish.vocabulary.util.MyMappings).CONCATENATION}}"
+          id="form">
+        <label for="group_name" id="labelForGr">Enter group name:</label>
+        <input id="group_name" type="text" name="textInp">
+        <br>
+        <label for="fromInt" id="labelForFrom">From:</label>
+        <input id="fromInt" type="number" name="numbInpF">
+        <br>
+        <label for="toInt" id="labelForTo">To:</label>
+        <input id="toInt" type="number" name="numbInpT">
+        <br>
+        <input id="submit" type="submit" name="submit">
+
+
+    </form>
+<!--    th:if="${message}!=null"-->
+    <h2 th:text="${__${T(com.learnenglish.vocabulary.util.AttributeNames).MESSAGE}__}"></h2>
+
+</div>
+
+</body>
+</html>

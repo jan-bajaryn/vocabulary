@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <input type="number" id="myInput" name="myInput" onchange="countOfTryings(this)">
+
+    <a name="toChallenge" href="http://some_web_site.com?parameter1=4">This is link</a>
+    <a name="toChallenge" href="http://some_web_site_other.com?parameter1=4">This is link 2</a>
+
+    <script>
+        function countOfTryings(variable) {
+            $('a[name="toChallenge"]').each(function () {
+                var oldUrl = $(this).attr("href"); // Get current url
+                var str = oldUrl.substring(0, oldUrl.indexOf("parameter1"));
+                var newUrl = oldUrl.replace(oldUrl, str + "parameter1=" + variable.value); // Create new url
+                $(this).attr("href", newUrl); // Set herf value
+            });
+        }
+    </script>
+</body>
+</html>

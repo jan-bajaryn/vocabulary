@@ -1,0 +1,20 @@
+shore--берег
+dumb--немой
+glide--скользить(gl)
+sail--плавать, паруса
+cliff--отвесная скала(c)
+curtain--занавес
+ivy--плющ
+pebble--булыжник, гравий, галечный
+bliss--блаженство(b)
+passageway--проход, пассаж(p)
+staircase--лестничная клетка
+drone--гул(d)
+credit--кредит, заслуга
+smarten--прихорашиваться
+linger--задерживаться
+smudge--мазаться
+flatten--выравнивать(f)
+jolt--толчок(j)
+pearl--жемчужина
+transparent--прозрачный

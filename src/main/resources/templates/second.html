@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div align="center">
+        <h1  th:text="${__${T(com.learnenglish.vocabulary.util.AttributeNames).MESSAGE}__}">There are something</h1>
+        <a th:href="@{__${T(com.learnenglish.vocabulary.util.MyMappings).HOME}__}" href="home.html">link to home</a>
+    </div>
+</body>
+</html>

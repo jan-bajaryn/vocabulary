@@ -1,0 +1,56 @@
+2*INZ005232W	Grafika komputerowa	nie wybrano											+:No choice
+3*INZ005232L	Grafika komputerowa	nie wybrano											+:No choice
+2-INZ003560W	Informatyczne systemy sterowania	nie wybrano							+:Donat Orski
+2-INZ003560P	Informatyczne systemy sterowania	nie wybrano							:Dariusz Gąsior(5), Maciej Hojda(норм, но лучше Дариуш),
+                                                                                      Donat Orski(норм и чуть выше 4 - 4+),
+                                                                                      Grzegorz Filcek(пока самый худший), --nikt
+2-INZ003560L	Informatyczne systemy sterowania	nie wybrano                      	:Jarosław Drapała(нокм ответы, но говорят, что валит),
+                                                                                      Magdalena Turowska(норм, но лучше Кристофор),
+                                                                                      Donat Orski(норм и чуть выше 4 - 4+),
+                                                                                      Krzysztof Brzostowski(очень заебись
+2-INZ003559W	Podstawy zarządzania	nie wybrano										0+:no choice - Kazimierz Frączkowski
+2*INZ005200W	Programowanie systemów webowych	Z00-25b	0/120							+:no choice - Ziemowit Nowak
+3*INZ005200L	Programowanie systemów webowych	Z00-24h	0/15							:Marcin Jodłowiec(нету), Ziemowit Nowak(херово),
+                                                                                      Wojciech Thomas(отлично)
+                                                                                      , Piotr Jóźwiak(говорят что норм)
+                                            записно Piotr Jóźwiak, проверить Wojciech Thomas
+
+1*INZ005206W	Projektowanie baz danych	nie wybrano									+:no choice - Ngoc Thanh Nguyen
+3*INZ005206P	Projektowanie baz danych	nie wybrano									:Marcin Pietranik(охуенно), Krystian Wojtkiewicz(средне),
+                                                                                      Rafał Palak(охуительно!)
+                                            Записано Wojciechowicz, проверить всех остальных
+2-INZ003561W	Projektowanie oprogramowania	nie wybrano								0++:no choice - Bogumiła Hnatkowska,
+3-INZ003561L	Projektowanie oprogramowania	nie wybrano								:Iwona Dubielewicz, Bogumiła Hnatkowska(средне 3.5+),
+                                                                                      Karol Stasiński(вроде норма, но инфы нету),
+                                                                                      Anita Walkowiak-Gall(нету),
+                                                                                      Krystian Wojtkiewicz(средне)
+                                                    Krystian Wojtkiewicz
+1*INZ005207W	Wprowadzenie do zarządzania projektami informatycznymi	nie wybrano		+:Iwona Dubielewicz
+2*INZ005207L	Wprowadzenie do zarządzania projektami informatycznymi	nie wybrano		:Katarzyna Tworek,  -----  Kazimierz Frączkowski, Hanna Mazur
+                                                                        Только бы Katarzyna Tworek
+30-17=13
+2*8+ 3*4+1*2=30
+
+
+
+
+
+
+
+
+INZ005202W	Programowanie aplikacji multimedialnych	nie wybrano	
+INZ005202L	Programowanie aplikacji multimedialnych	nie wybrano		
+
+
+
+
+
+
+
+
+
+
+
+//надеюсь переключиться сюда
+INZ005209W	Wspomaganie zarządzania projektami informatycznymi	nie wybrano	
+INZ005209L	Wspomaganie zarządzania projektami informatycznymi	nie wybrano	

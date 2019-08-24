@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>The long term challenge</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!--    <script src="jqueryfile.js"></script>-->
+</head>
+<body>
+
+<div align="center">
+
+    <h1>Welcome to the long term challenge home page</h1>
+    <h2>There you can choose what base you want to learn</h2>
+
+
+    <input type="number" id="myInput" name="myInput" onchange="countOfTryings(this)">
+
+    <table border="1" cellpadding="5">
+        <thead>
+        <th>File Name</th>
+        <th>Read This file</th>
+        </thead>
+        <tbody>
+        <tr th:if="${filenames.isEmpty()}">
+            <td colspan="2"> There no txt files</td>
+        </tr>
+
+        <tr th:each="file : ${filenames}">
+            <td><span th:text="${file}">FileNameThere</span></td>
+            <td>
+                <a name="toChallenge"
+                   th:href="@{${T(com.learnenglish.vocabulary.util.MyMappings).LONG_TERM_REALIZATION}(lowtfile=${file},countTr=1)}">
+                    Challenge file
+                </a>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <a name="toChallenge" href="http://aaa/?countTr=4">href my</a>
+    <script>
+        function countOfTryings(variable){
+        $('a[name="toChallenge"]').each(function () {
+            var oldUrl = $(this).attr("href"); // Get current url
+            var str = oldUrl.substring(0, oldUrl.indexOf("countTr"));
+            var newUrl = oldUrl.replace(oldUrl, str+"countTr="+variable.value); // Create new url
+            $(this).attr("href", newUrl); // Set herf value
+        });
+        }
+    </script>
+</div>
+</body>
+</html>

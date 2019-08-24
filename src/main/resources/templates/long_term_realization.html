@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!--    <script src="jqueryfile.js"></script>-->
+    <title>Long Term Realization</title>
+</head>
+<body>
+<div align="center">
+
+    <h2 th:text="${__${T(com.learnenglish.vocabulary.util.AttributeNames).REMAIN_ELEMENTS}__}"></h2>
+    <h2 style="color:red" th:utext="${__${T(com.learnenglish.vocabulary.util.AttributeNames).MESSAGE}__}">Message</h2>
+    <h1 th:text="${current_element_long_term.getTranslation()}"></h1>
+    <h2>Choose correct form of the word</h2>
+
+    <table border="1" cellpadding="5">
+        <thead>
+        <th>Answer</th>
+        <th>Choose this answer</th>
+        </thead>
+        <tbody>
+        <tr th:if="${current_list_element_long_term.isEmpty()}">
+            <td colspan="2">There no choose</td>
+        </tr>
+
+        <tr th:each="element, iStat : ${current_list_element_long_term}">
+            <td><span th:text="${iStat.index+1}+'.'+${element.getEnglishWord()}">Word</span></td>
+            <td>
+                <a name="toChallenge"
+                   th:href="@{${T(com.learnenglish.vocabulary.util.MyMappings).CHECK_AND_REDIRECT}(guess=${iStat.index}+1)}">
+                    This is right
+                </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <script>
+        function goToElement(iElem) {
+            var bufVar = $('a[name="toChallenge"]:eq(' + iElem + ')').attr("href");
+            if (!(bufVar == null))
+                window.open(bufVar, "_top");
+        }
+
+        Mousetrap.bind(['a', 'A', '1'], function (e) {
+            goToElement(0);
+        });
+        Mousetrap.bind(['b', 'B', '2'], function (e) {
+            goToElement(1);
+        });
+        Mousetrap.bind(['c', 'C', '3'], function (e) {
+            goToElement(2);
+        });
+        Mousetrap.bind(['d', 'D', '4'], function (e) {
+            goToElement(3);
+        });
+        Mousetrap.bind(['e', 'E', '5'], function (e) {
+            goToElement(4);
+        });
+        Mousetrap.bind(['f', 'F', '6'], function (e) {
+            goToElement(5);
+        });
+        Mousetrap.bind(['g', 'G', '7'], function (e) {
+            goToElement(6);
+        });
+        Mousetrap.bind(['h', 'H', '8'], function (e) {
+            goToElement(7);
+        });
+        Mousetrap.bind(['i', 'I', '9'], function (e) {
+            goToElement(8);
+        });
+    </script>
+</div>
+</body>
+</html>

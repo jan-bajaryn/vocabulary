@@ -1,0 +1,81 @@
+rumor--слух, молва
+mumble--бормотать(mmb)
+twitch--подергивание
+pierce--прокалывать
+gasp--задыхаться(g)
+pat--хлопать(p)
+falter--запинаться
+astound--поражать, изумлять (a)
+faint--слабый, падать в обморок
+grudge--зависть
+astride--верхом
+bushy--густой
+lid--крышка
+blanket--одеяло
+relieve--облегчать
+tuft--пучок(t)
+jet--реактивный
+whiskery--усатый
+hiss--шипеть
+bury--закапывать
+grip--захват
+twinkling--мгновение(t)
+wipe--вытереть
+sleeve--рукав
+glow--светиться(g)
+murmur--шептать, ворчать
+neat--аккуратный, ловкий, искусный, меткий
+inky--чернильный
+prod--подгонять
+pinch--зажимать(p)
+hush--тишина(h)
+mantelpiece--каминная полка
+bonnet--капот
+demand--требовать
+skinny--тощий(sk)
+knobbly--широковатый
+greet--приветствовать
+wig--парик
+rip--разрыв(r)
+mad--безумный
+furiously--яростно(f)
+frantically--неистово(f)
+scrawny--тощий(sc)
+shear--стрижка, сдвиг
+hoodlum--хулиган
+crawl--ползти
+budge--сдвинуться с места
+snooze--вздремнуть
+plainly--ясно, прямо
+vigorously--решительно
+specimen--образец(s)
+waddle--ковылять
+concrete--бетон
+gibber--невнятно
+squeeze--сжимать(sq)
+sneak--подлец
+tinned--консервированный
+snivel--хныкать(3+)
+hanger--крючок(h)
+perch--усесться
+shack--лачуга
+amble--иноходь, гулять
+wicked--злобный
+bob--качать, подпрыгивать
+whip--кнут
+seaweed--морские водоросли
+boarded--заколоченный
+shred--шинковать
+wrench--вырвать, гаечный ключ
+musty--затхлый
+sheet--простыня, лист
+stale--несвежий
+choke--задыхаться (ch)
+croak--квакать
+scruff--загривок
+dangle--свисать(d)
+stamp out--уничтожить(s o)
+strangle--задушить
+wheeze--хрипеть
+tread--топтать
+squashy--мягкий, поткий (sq)

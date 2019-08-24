@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <div align="center">
+    <h1>This is a home page</h1>
+        <h2>There you can choose a challenge in what you want to participate</h2>
+
+        <a th:href="@{__${T(com.learnenglish.vocabulary.util.MyMappings).FIRST}__}">link to first page</a>
+        <br/>
+        <a id="firstChal" th:href="@{__${T(com.learnenglish.vocabulary.util.MyMappings).LOW_TERM}__}">Low term check</a>
+        <a id="secChal" th:href="@{__${T(com.learnenglish.vocabulary.util.MyMappings).LONG_TERM}__}">Long term check</a>
+        <br>
+        <a id="concat" th:href="@{__${T(com.learnenglish.vocabulary.util.MyMappings).CONCATENATION}__}">Concatenation</a>
+        <script>
+            document.getElementById("firstChal").focus();
+        </script>
+    </div>
+</body>
+</html>
