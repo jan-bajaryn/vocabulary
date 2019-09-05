@@ -14,7 +14,7 @@ public class Format {
 
     public static final String GROUP_NAME = "HP";
     public static final int MIN_VAL = 0;
-    public static final int MAX_VAL = 112;
+    public static final int MAX_VAL = 116;
     public static final int INTERVAL = 20;
 
 

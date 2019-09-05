@@ -75,7 +75,6 @@ public class ConcatFilesFromTo {
     public static void writeStringToFile(String str, String fileName) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter(LowTermCheck.PREFIX_FOLDER + File.separator + NEW_FILE + ".txt"));
         writer.write(str);
-
         writer.close();
     }
 

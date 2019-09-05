@@ -1,0 +1,20 @@
+birth certificate--свидетельство о рождении
+activism--активность(кончается на m)
+enterprise--предприятие
+recognition--узнавание
+entrepreneur--предприниматель
+behind--позади
+interact--взаимодействовать
+diapers--подгузники
+praise--восхвалять
+maintain--поддерживать
+rent--арендовать
+drag--тащить
+guilt--чувство вины, вина
+addict--наркоман, алкоголик(зависимый)
+express--выражать
+facial recognition--распознавание лиц
+glorify--прославлять
+reasonable--разумный
+unfair--несправедливый
+turn into--превратиться

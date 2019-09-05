@@ -3,9 +3,12 @@ package com.learnenglish.vocabulary.logic.pack1;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.WebApplicationContext;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -21,15 +24,16 @@ import static com.learnenglish.vocabulary.logic.pack1.LowTermCheck.SEPARATOR;
 import static com.learnenglish.vocabulary.logic.pack1.LowTermCheck.readingFromFile;
 
 @Component
-@Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
+//@Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
+@Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class Tip {
-    public static final String userDir = System.getProperty("user.dir");
+    private static final String userDir = System.getProperty("user.dir");
 
     public Tip() {
     }
 
     public List<String> getListFiles() {
-        try (Stream<Path> walk = Files.walk(Paths.get(userDir))) {
+        try (Stream<Path> walk = Files.walk(Paths.get(userDir + File.separator + LowTermCheck.PREFIX_FOLDER))) {
 
             return walk.filter(Files::isRegularFile)
                     .map(Path::toString)

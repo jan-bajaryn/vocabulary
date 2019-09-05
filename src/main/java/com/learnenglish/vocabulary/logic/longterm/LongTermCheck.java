@@ -5,8 +5,12 @@ import com.learnenglish.vocabulary.logic.pack1.Element;
 import com.learnenglish.vocabulary.logic.pack1.Tip;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Service;
+import org.springframework.web.context.WebApplicationContext;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -15,9 +19,11 @@ import java.util.Random;
 
 import static com.learnenglish.vocabulary.logic.pack1.LowTermCheck.PREFIX_FOLDER;
 
+@Slf4j
 @Service
 @Getter
 @Setter
+@Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class LongTermCheck {
     public static final String DEFAULT_FILE_NAME = "words";
     public static final String SEPARETOR = "--";
@@ -42,7 +48,7 @@ public class LongTermCheck {
     ArrayList<Element> displayList = new ArrayList<>(COUNT_OF_VARIANTS);
 
 
-    public static ArrayList<Element> readingFromFile(String fileName, int countOfTryings) {
+    private static ArrayList<Element> readingFromFile(String fileName, int countOfTryings) {
         ArrayList<Element> elements = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
             String s;
@@ -106,8 +112,10 @@ public class LongTermCheck {
         }
         displayList.add(currentElem);
 
-        System.out.println("Before scatter:");
-        displayListConsole(displayList);
+//        System.out.println("Before scatter:");
+//        displayListConsole(displayList);
+        log.info("displayForm: before scatter displayList = {}", displayList);
+        log.info("displayForm: before scatter currentElem = {}", currentElem);
 
 
         scatterRandomlyList(displayList);
@@ -146,20 +154,22 @@ public class LongTermCheck {
         }
     }
 
-    public void scatterRandomlyList(ArrayList<Element> arr) {
+    private void scatterRandomlyList(ArrayList<Element> arr) {
         ArrayList<Element> bufArr = new ArrayList<>(arr);
         arr.clear();
         for (int i = MIN_NUMBER_OF_VARIANTS; i < COUNT_OF_VARIANTS + MIN_NUMBER_OF_VARIANTS; i++) {
             int randPos = random.nextInt(bufArr.size());
             Element randElem = bufArr.get(randPos);
-            System.out.println(i + ". " + randElem.toString());
+//            System.out.println(i + ". " + randElem.toString());
+            log.info("scatterRandomlyList: "+i+". randElem = {}", randElem);
             arr.add(randElem);
             bufArr.remove(randPos);
         }
-        System.out.println("Current element = " + currentElem.toString());
+
+        log.info("scatterRandomlyList: currentElem = {}", currentElem);
     }
 
-    public void deleteParenthesisTips(ArrayList<Element> arr) {
+    private void deleteParenthesisTips(ArrayList<Element> arr) {
         for (Element elem : arr) {
             int index;
             String transl = elem.getTranslation();
@@ -170,8 +180,8 @@ public class LongTermCheck {
 
     }
 
-    public void displayListConsole(List<Element> elements1) {
-        elements1.forEach(System.out::println);
-        System.out.println("Current elemtn = " + currentElem.toString());
-    }
+//    public void displayListConsole(List<Element> elements1) {
+//        elements1.forEach(System.out::println);
+//        System.out.println("Current elemtn = " + currentElem.toString());
+//    }
 }

@@ -7,7 +7,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.WebApplicationContext;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -17,11 +19,14 @@ import java.util.Random;
 @Component
 @Getter
 @Setter
-@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+//@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+@Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class LowTermCheck {
 
     public static final String SEPARATOR = "--";
-    public static final String PREFIX_FOLDER = "ulist_vocabularies";
+    public static final String PREFIX_FOLDER = "ulist_vocabularies" +
+            File.separator +
+            "ulist_vocabularies_eng";
 
     @Autowired
     private Tip tip;
@@ -79,22 +84,29 @@ public class LowTermCheck {
         try {
             this.elements = readingFromFile(System.getProperty("user.dir") + File.separator +
                     PREFIX_FOLDER + File.separator + fileName, countOfTrying);
+            log.info("reading from file successfully, filename = {}", fileName);
             return true;
         } catch (Exception e) {
+            log.info("reading from file unsuccessfully, finename = {}", fileName);
             return false;
         }
     }
 
     private Element chooseRandomPositionElem() {
-        if (elements == null || elements.size() <= 0)
+        if (elements == null || elements.size() <= 0) {
+            log.info("random position element didn't chosen, elements ={}", elements);
             return null;
-        else
-            return elements.get(position = random.nextInt(elements.size()));
+        } else {
+            Element randEl = elements.get(position = random.nextInt(elements.size()));
+            log.info("Random position element chosen in chooseRandomPositionElem()," +
+                    " position ={} and element ={}", position, randEl);
+            return randEl;
+        }
     }
 
     public boolean chooseElement() {
         Element bufElem = chooseRandomPositionElem();
-//        log.info("Random position element chosen = {}", bufElem);
+        log.info("Random position element chosen in chooseElement() = {}", bufElem);
         if (bufElem == null)
             return false;
         else {
@@ -104,12 +116,10 @@ public class LowTermCheck {
     }
 
 
-
-
     public boolean isAnswerTrue(String answer) {
         if (currentElem.getEnglishWord().equals(answer)) {
             currentElem.setCountOfTrying(currentElem.getCountOfTrying() - 1);
-
+            log.info("Answer is true, currentElem={}, answer={}", currentElem, answer);
             if (currentElem.getCountOfTrying() == 0) {
                 log.info("Removed element = {}", currentElem);
                 elements.remove(position);
@@ -117,7 +127,7 @@ public class LowTermCheck {
 
             return true;
         } else {
-//            log.info("Not proper translating chosen = {}", answer);
+            log.info("Not proper translating chosen, currentElem = {}, answer = {}", currentElem, answer);
             return false;
         }
     }

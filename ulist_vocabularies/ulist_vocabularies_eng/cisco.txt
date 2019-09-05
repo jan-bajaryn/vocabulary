@@ -1,0 +1,58 @@
+distinguish--отличать
+conjunction--конъюнкция, соединение
+copper--медь
+fiber-optic--волоконная оптика
+wireless--беспроводной
+medium--средний, среда
+wire--провод
+pulse--пульс, ритм
+wavelength--длина волны
+appropriate--соответствующий
+consider--считать, полагать
+outlet--выходное отверстие
+metropolitan area network--городская сеть
+storage area network--сеть хранения данных
+bandwidth--пропускная способность
+delivery--доставка
+supplier--поставщик
+personnel--персонал
+district--район
+broadband--широкополосный
+vary--отличаться(v)
+digital subscriber lines--цифровые абонентские(подписчики) линии
+sufficient--достаточный
+expensive--дорогой
+envelope--конверт
+investigate--исследовать, разбираться
+beyond--за, сверх, после, вне, превыше, помимо, кроме, вдали, далеко
+sharpen--обострять
+arrow--стрелка
+scratch--царапать
+wattage--можщность(физика)
+ambient--окружающий
+mock up--макет
+reassemble--снова собрать
+query--запрос
+throughput--производительность
+goodput--полезная пропускная способность
+pattern--шаблон, образец, узор
+signal attenuation--сигнала затухание
+radio frequency interference--радиочастотные помехи
+electromagnetic interference--электромагнитная помеха
+crosstalk--переходные помехи
+unshielded twisted-pair--неэкранированная витая пара (UTP)
+shielded twisted-pair--экранированная витая пара (STP)
+coaxial--коаксиальные кабели
+color-coded plastic isolation--цветовая кодировка пластмассовой изоляцией
+twisted pair--витая пара
+outer jacket--внешняя оболочка
+braided or foil shield--экранирующая оплетка или экран из фольги
+foil shield--экран из фольги
+braided copper shielding--медная экранированная оплетка
+plastic insulation--пластиковая изоляция
+copper conductor--медный проводник
+cancellation--взаимоподавление
+varying the number of twists per wire pair--Различный шаг витков в парах
+miracle--чудо
+prevent--предотвращать
+mention--упомянуть

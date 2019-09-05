@@ -1,0 +1,20 @@
+carve--вырезать
+ache--боль
+crossly--сердито
+retrace--восстановить, проследить
+transfix--пронизывать
+dunno--не знаю(сокращенно)
+nearsighted--близорукий(3ф)
+entranced--зачарованный(вход+(3ф))
+wool--шерсть
+roam--бродить(r)
+skim--бегло просмотреть, снимать
+overtake--обгон
+muddy--мутный
+excuse--оправдание
+mud--грязь
+sinister--зловещий
+bunny--кролик
+urge--побуждать
+grumpily--сердито(crossly)(g)
+bias--предвзятость
