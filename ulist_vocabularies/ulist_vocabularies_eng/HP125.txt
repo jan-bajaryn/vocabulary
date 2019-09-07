@@ -17,3 +17,4 @@ grovel--пресмыкаться
 revulsion--отвращение
 profound--глубокий
 reciprocity--взаимность
+splint--шина

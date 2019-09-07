@@ -8,10 +8,8 @@ interact--взаимодействовать
 diapers--подгузники
 praise--восхвалять
 maintain--поддерживать
-rent--арендовать
 drag--тащить
 guilt--чувство вины, вина
-addict--наркоман, алкоголик(зависимый)
 express--выражать
 facial recognition--распознавание лиц
 glorify--прославлять

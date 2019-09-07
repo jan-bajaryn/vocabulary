@@ -14,7 +14,6 @@ import org.springframework.web.context.WebApplicationContext;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 import static com.learnenglish.vocabulary.logic.pack1.LowTermCheck.PREFIX_FOLDER;
