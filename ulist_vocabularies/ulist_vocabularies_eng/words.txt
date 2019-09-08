@@ -10,4 +10,10 @@ neighbourhood bills--соседские счета
 sanctuary--заповедник, святилище
 accomplish--выполнять
 affectionate--любящий
-hereby--настоящим...
+hereby--настоящим
+tile--плитка, кость
+embroider--вышивать
+maid--прислуга, горничная
+landlord--хозяин квартиры
+suffocate--душить
+contend--бороться
