@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
+<head th:replace="~{fragments/header :: headFragment}">
     <meta charset="UTF-8">
     <script src="//cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <!--    <script src="jqueryfile.js"></script>-->
     <title>Long Term Realization</title>
 </head>
 <body>
@@ -74,5 +73,8 @@
         });
     </script>
 </div>
+
+<div th:replace="~{fragments/header :: bodyNesetd}"></div>
+
 </body>
 </html>

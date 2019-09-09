@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
+<head th:replace="~{fragments/header :: headFragment}">
     <meta charset="UTF-8">
     <title>The long term challenge</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -50,5 +50,7 @@
         }
     </script>
 </div>
+
+<div th:replace="~{fragments/header :: bodyNesetd}"></div>
 </body>
 </html>

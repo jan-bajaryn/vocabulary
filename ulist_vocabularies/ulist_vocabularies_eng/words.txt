@@ -17,3 +17,8 @@ maid--прислуга, горничная
 landlord--хозяин квартиры
 suffocate--душить
 contend--бороться
+suntan--зараг
+lotion--лосьен
+knead--месить
+fiend--демон, злодей
+bee--пчела
