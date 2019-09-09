@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <th:block th:replace="~{fragments/header :: headFragment}"></th:block>
     <meta charset="UTF-8">
     <title>The low term challenge</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -51,5 +52,9 @@
         }
     </script>
 </div>
+
+<div th:replace="~{fragments/header :: bodyNesetd}"></div>
+
+
 </body>
 </html>

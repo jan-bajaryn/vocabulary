@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <th:block th:replace="~{fragments/header :: headFragment}"></th:block>
     <meta charset="UTF-8">
     <title>Game Over</title>
 </head>
@@ -17,6 +18,9 @@
     </script>
 
 </div>
+
+<div th:replace="~{fragments/header :: bodyNesetd}"></div>
+
 
 </body>
 </html>

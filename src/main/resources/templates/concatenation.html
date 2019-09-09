@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <th:block th:replace="~{fragments/header :: headFragment}"></th:block>
     <meta charset="UTF-8">
     <title>Concatenation</title>
 </head>
@@ -31,6 +32,9 @@
     <h2 th:text="${__${T(com.learnenglish.vocabulary.util.AttributeNames).MESSAGE}__}"></h2>
 
 </div>
+
+<div th:replace="~{fragments/header :: bodyNesetd}"></div>
+
 
 </body>
 </html>

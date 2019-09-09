@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <th:block th:replace="~{fragments/header :: headFragment}"></th:block>
     <meta charset="UTF-8">
     <title>Low Term Realization</title>
     <script src="//cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js"></script>
@@ -25,6 +26,9 @@
     </form>
     <p th:text="${__${T(com.learnenglish.vocabulary.util.AttributeNames).REMAIN_ELEMENTS}__}"></p>
 </div>
+
+<div th:replace="~{fragments/header :: bodyNesetd}"></div>
+
 
 </body>
 </html>
