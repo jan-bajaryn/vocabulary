@@ -21,7 +21,7 @@
           th:action="@{${T(com.learnenglish.vocabulary.util.MyMappings).LOW_TERM_REALIZATION}}"
           method="post">
         <label for="answer" id="labelforanswer">Enter your answer:</label>
-        <input autofocus id="answer" name="answer" type="text" autocomplete="off">
+        <input autofocus  id="answer" name="answer" type="text" autocomplete="off">
         <input id="submit" type="submit" value="Submit">
     </form>
     <p th:text="${__${T(com.learnenglish.vocabulary.util.AttributeNames).REMAIN_ELEMENTS}__}"></p>
@@ -29,6 +29,17 @@
 
 <div th:replace="~{fragments/header :: bodyNesetd}"></div>
 
+<script>
+    // $(document).ready(function() {
+    //     $('#answer').click(function(e){
+    //         $(this).focus();
+    //     });
+    //     $('#answer').trigger('click');
+    //     $("#answer").click();
+    // })
+    // $('#answer').click(function(){ $('#answer').trigger('focus') });
+    // $('#answer').click();
+</script>
 
 </body>
 </html>
