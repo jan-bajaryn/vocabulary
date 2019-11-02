@@ -3,6 +3,7 @@ package com.learnenglish.vocabulary.logic.preparation;
 
 import com.learnenglish.vocabulary.logic.pack1.Element;
 
+import javax.swing.text.html.HTMLDocument;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -18,7 +19,6 @@ public class ConcatFilesConNum {
     public static final String groupName = "HP";
 
     public static void main(String[] args) {
-
         ArrayList<Element> elements = new ArrayList<>();
         int size = fileNumArr.length;
         for (int value : fileNumArr) {

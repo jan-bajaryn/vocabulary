@@ -11,7 +11,7 @@ import static com.learnenglish.vocabulary.logic.longterm.LongTermCheck.SEPARETOR
 
 
 public class ConcatFilesFromToConsoleVariant {
-    public static final int MAX_VAL = 79;
+    public static final int MAX_VAL = 134;
     public static final int MIN_VAL = /*MAX_VAL - 9 < 0 ? 0 : MAX_VAL - 9*/MAX_VAL - 9;
     public static final String NEW_FILE = "HPbuf1";
     public static final String GROUP_NAME = "HP";

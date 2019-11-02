@@ -1,24 +1,20 @@
-dam--плотина
-span--промежуток, пролет
-pier--пристань
-reinforced--усиленный
-furnished--меблированный
-fully equipped--полностью оборудованный
-flat share--делить квартиру
-security deposit--залог
-neighbourhood bills--соседские счета
-sanctuary--заповедник, святилище
-accomplish--выполнять
-affectionate--любящий
-hereby--настоящим
-tile--плитка, кость
-embroider--вышивать
-maid--прислуга, горничная
-landlord--хозяин квартиры
-suffocate--душить
-contend--бороться
-suntan--зараг
-lotion--лосьен
-knead--месить
-fiend--демон, злодей
-bee--пчела
+even--четный
+odd--нечетный
+birth certificate--свидетельство о рождении
+activism--активность(кончается на m)
+enterprise--предприятие
+recognition--узнавание
+entrepreneur--предприниматель
+behind--позади
+interact--взаимодействовать
+diapers--подгузники
+praise--восхвалять
+maintain--поддерживать
+drag--тащить
+guilt--чувство вины, вина
+express--выражать
+facial recognition--распознавание лиц
+glorify--прославлять
+reasonable--разумный
+unfair--несправедливый
+turn into--превратиться

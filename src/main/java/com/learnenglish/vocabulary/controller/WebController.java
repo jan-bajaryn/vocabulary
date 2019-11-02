@@ -62,7 +62,6 @@ public class WebController {
 
 
         model.addAttribute(AttributeNames.FILE_NAMES, listFiles);
-        model.addAttribute(AttributeNames.MESSAGE, "some textttt");
         return ViewNames.LOW_TERM;
     }
 

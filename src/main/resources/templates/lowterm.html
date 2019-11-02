@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>The low term challenge</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<!--    <script src="jqueryfile.js"></script>-->
+    <!--    <script src="jqueryfile.js"></script>-->
 </head>
 <body>
 
@@ -14,8 +14,8 @@
     <h1>Welcome to the low term challenge home page</h1>
     <h2>There you can choose what you want to learn</h2>
 
-    <p th:text="${__${T(com.learnenglish.vocabulary.util.AttributeNames).MESSAGE}__}">some text</p>
-
+    <p th:with="vr=${__${T(com.learnenglish.vocabulary.util.AttributeNames).MESSAGE}__}"
+       th:if="${vr}!=null" th:text="${vr}"></p>
 
     <input type="number" id="myInput" name="myInput" onchange="countOfTryings(this)">
 

@@ -1,200 +1,200 @@
-hulking--громадный, неуклюжий
-gutter--канава, водосточный желоб
-eve--канун
-ere--прежде чем
-tremendous--огромный
-contemptuous--презрительный
-lane--переулок
-fortress--крепость
-elude--ускользать
-prime--главный, первичный
-massacre--резня, избиение
-witness--свидетель, свидетельство
-lad--парень
-brake--тормоз
-bucket--ведро, ковш
-portly--представительный, дородный
-parlor--кабинет, гастинная
-toss--бросать жребий, бросать
-innkeeper--трактирщик
-survey--обследование
-venerable--почтенный, древний
-liver--печень
-sundae--пломбир
-sorely--очень, жестоко
-proprietor--собственник
-hone--точильный камень
-surpass--превосходить
-pinpoint--прицельный
-incorporate--включать
-replenish--пополнять
-pave--вымостить
-entrails--внутренности
-tramp--бродяга
-defiantly--вызывающе
-formidable--грозный, внушительный, огромный
-composedly--спокойно
-meritorious--заслуженный
-recap--резюме, краткое повторение
-habit--привычка
-supplement--дополнение
-respond--отвечать
-persist--сохраниться, упорствовать
-jabber--болтовня
-woebegone--удрученный
-propel--стимулировать, ускорять
-splay--вывихнуть, косить
-refuge--убежище
-gorgeous--великолепный
-headlong--безудержный
-pur--мурлыканье, урчание
-spiffing--замечательно
-derange--расстроить(3ф -> ненормальный)
-dismantle--демонтировать, снять
-lenient--мягкий, снисходительный
-accuse--обвинять
-coo--ворковать
-wicker--плетение
-furtive--тайный, хитрый
-precede--предшествовать
-depict--изображать
-confirm--подтвердить
-conform--соответствовать
-grid--сетка, решетка
-curve--кривая
-adjacent--примыкающий
-wag--остряк
-buddy--приятель
-overlook--игнорировать
-huffily--раздраженно
-darn--штопать
-nutter--псих
-haywire--расстроенный
-clot--сгусток
-inn--отель
-headquarter--штаб-квартира
-scenery--пейзаж, декорация
-piston--поршень
-protrude--выпирать
-decay--распад
-withdraw--снимать
-plead--умолять, обратиться
-forge--ковать
-tip--совет, наклонять
-expire--истекать
-dedication--преданность
-ant--муравей
-deploy--развертывать
-discard--отбрасывать
-ternary--троичный
-assemble--собирать
-arbitrary--произвольный
-brief--краткий, записка, проинформировать
-bout--приступ
-coach--тренер, карета, вагон
-boar--кабан, хряк
-dilapidated--полуразрушенный
-forebode--предзнаменование
-clammy--липкий, холодный
-remedy--средство, лекарство
-host--принимающая сторона, хозяин
-blandly--ласково
-afoul--нарушать, сталкиваться
-consent--согласие
-lukewarm--тепловатый
-ravenous--прожорливый
-morsel--кусочек
-swoon--обморок
-polecat--хорек
-apprehend--предчувствовать
-conversely--наоборот
-nonchalantly--беспечно
-villain--злодей
-trespass--посягательство
-perchance--возможно
-knave--мошенник
-scabbard--ножны
-scurvy--цинга
-braggart--хвастун
-visor--щиток, козырек
-perish--погибать
-drape--драпировка
-insect--насекомое
-gauzy--прозрачный
-shawl--шаль, покрывало
-bangle--браслет
-hustle--суета
-veil--скрывать, завуалировать, завеса
-tremulously--робко
-disrupt--срывать, разрушать
-swill--помои
-saucer--блюдце
-tinkle--звон
-dustpan--совок
-scald--ожог
-mundane--светский, обыденный
-acorn--желудь
-counterclockwise--против часовой стрелки
-churchyard--кладбище
-overcoat--пальто
-crestfallen--удрученный
-forefinger--указательный палец
-downcast--потупленный
-misgiving--опасение
-haughtily--высокомерно
-scaly--чешуйчатый
-assort--сортировать
-embolden--поощрять
-disdain--презрение
-ancestor--предок
-defile--осквернять
-gash--разрез
-flex--сгибать, напрячь
-twilight--сумерки
-tankard--кружка
-mutilate--калечить
-acid--кислота
-verge--край
-tadpole--головастик
-dismiss--отстранять, увольнять
-gum--жвачка
-facility--объект, возможность
-cumbersome--обременительный
-compose--составить
-primarily--прежде всего
-snippet--фрагмент
-elevator--лифт
-eternity--вечность
-fart--пукать
-purgatory--очистительный, чистилище
-basement--подвал
-wage--заработная плата
-corpse--труп
-repel--отталкивать
-gallows--виселица
-lace--шнурок, кружево
-mummy--мумия
-rattlesnake--гремучая змея
-cockroach--таракан
-bloodshed--кровопролитие
-pothole--выбоина
-bludgeon--дубинка, дубасить
-itch--зуд
-unwitting--невольно
-wader--болотная птица
-vindictive--мстительный
-spank--шлепок
-et cetera--и так далее
-infer--делать вывод
-overall--в общем и целом
-damnation--проклятие
-dejected--удрученный
-tarnish--потускнение
-bulletin--бюллетень
-pods--стручки
-pail--ведро
-disturbance--нарушение, возмущение
-dagger--кинжал
-eggs--растереть, яйца
-endure--терпеть
-squabble--перебранка
+muzzle--морда, намордник
+lake--озеро
+wangle--добиться, выпросить
+grub--надрываться, вскапывать
+tightens up--оно ужесточается (без it)
+unzip--расстегнуть молнию
+stir up--возбудить (s u)
+peer review--рецензирование
+afterthought--раздумье
+daunt--устрашать
+feel more content--почувствовать себя более довольным
+beloved--возлюбленная
+intangible--нематериальный
+mitigate--смягчать, уменьшать
+straightforward--простой
+susceptible--восприимчивый
+emphatically--решительно
+collateralized--обеспеченный
+intermediary--промежуточный
+alternate--чередовать
+permit--разрешить
+consort--якшаться, супруга, наложница
+eyelid--веко
+gnaw--грызть
+agitate--волновать, агитировать
+allowance--пособие, надбавка, разрешение
+waistcoat--жилет
+stem--стебель
+sensation--чувство
+china--фарфор, Китай
+self--личность
+subterranean--подземный
+fable--басня
+heirloom--фамильная ценность
+dexterity--ловкость
+vitality--энергичность
+engage--привлекать, занимать, вступить в бой (+ the enemy)
+swindler--мошенник
+addict--наркоман, алкоголик(зависимый)
+rent--арендовать
+condemn--осуждать
+huskily--хрипло(hoarsely)
+clump--глыба
+meander--извиваться
+tipsily--навеселе
+under his breath--себе под нос
+bank--берег, банк
+canter--легкий галоп
+nap--вздремнуть
+drumroll--барабанная дробь
+stag--олень
+antler--олений рог
+prong--зубец, штырь
+battlement--зубцы, крепостная стена
+boisterous--шумный
+noon--полдень
+wryly--криво
+vacate--освобождать, аннулировать
+outwit--перехитрить
+proposal--предложение
+for a dare--на спор
+bore--бурить, надоедать
+sparse--редкий, разбросанный
+furrow--морщить, борозда
+buildup--накопление
+protract--зятягивать
+coherent--последовательный, связный
+extent--степень, размер, протяжность
+waver--колебаться
+wayside--обочина
+thrill--трепет
+undulate--волнистый
+travesty--пародия, издевательство
+snag--зацепиться, сучок
+despise--презирать
+apt--подходящий
+disband--расформировать
+disconcert--смущать
+fortnight--две недели
+affliction--бедствие
+invitation--приглашение
+swot--зубрить
+nancy--изнеженный
+outfit--снаряжение
+nourishment--питание
+whale--кит
+floorboard--паркетная доска, половица
+curtly--односложно
+distaste--отвращение
+peruse--внимательно прочитать
+cog--зубец
+mistreat--плохо обращаться
+fixture--прибор, приспособление
+pronto--без промедления
+twitter--щебетать
+pride--гордость
+savor--вкус, благоухание
+nook--закоулок
+imminent--неизбежный
+uptight--встревоженный
+intimidate--запугивать
+diminish--снижать, уменьшать
+therefore--следовательно
+celery--сельдерей
+diatribe--обличительная речь
+compulsive--принудительный, обязательный
+perspire--потеть
+buttock--ягодица
+wolverine--росомаха
+outward--внешний
+bulk--объем, основная масса
+overwhelming--непреодолимый
+genuinely--искренне
+stock--запас, ценные бумаги
+tan--загар
+contend--бороться
+lotion--лосьен
+knead--месить
+fiend--демон, злодей
+bee--пчела
+cutlery--столовые приборы, ножевые изделия
+peevish--капризный
+dismissive--пренебрежительно
+earring--серьга
+congregate--собираться
+fully equipped--полностью оборудованный
+flat share--делить квартиру
+security deposit--залог
+neighbourhood bills--соседские счета
+sanctuary--заповедник, святилище
+accomplish--выполнять
+affectionate--любящий
+hereby--настоящим
+tile--плитка, кость
+embroider--вышивать
+maid--прислуга, горничная
+landlord--хозяин квартиры
+suffocate--душить
+suntan--загар
+out of respect--из уважения(фразеологизм)
+beforehand--заранее
+clog--забивать, засорять
+obtrusive--навязчивый, бесцеремонный
+dilute--разбавлять
+navel--пупок
+campsite--место разбитие лагеря
+scrutinize--тщательно исследовать
+stubble--щетина
+lax--слабый
+confection--кондитерское изделие
+peg--вешалка
+hindrance--помеха
+mallet--колотушка
+bunk--койка, ахинея
+newly--вновь
+scold--ругать
+dubious--подозрительный
+shamrock--трилистник
+hillock--бугор
+penfriend--собеседник
+rosy--румяный
+haggard--изможденный
+jingle--звон
+impeccable--безупречный
+chap--парень
+leverage--система рычагов
+niche--ниша
+midge--мошка
+palpable--ощутимый
+vestige--след
+blatant--вопиющий, крикливый
+adorn--приукрашивать
+preen--чистить
+suffuse--наполнить
+teeny--крощечный
+dam--плотина
+span--промежуток, пролет
+pier--пристань
+reinforced--усиленный
+furnished--меблированный
+tassel--кисточка
+mascot--талисман
+hedgehog--еж, дикобраз
+gabble--бормотание
+cadge--попрошайничать
+malady--болезнь
+discordant--несогласный, противоречащий
+curvy--соблазнительный
+ulcer--язва
+moan--стонать
+throbbing--пульсация
+savour--пикантность
+melt--плавиться
+slide--скольжение
+lustful--похотливый
+pent-up--отложенный
+pant--пыхтение
+suit--подходить
+disgusting--отвратительный
+disappointed--разочарованный

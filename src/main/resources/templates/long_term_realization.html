@@ -12,16 +12,16 @@
 <div align="center">
 
     <h2 th:text="${__${T(com.learnenglish.vocabulary.util.AttributeNames).REMAIN_ELEMENTS}__}"></h2>
-    <h2 style="color:red" th:utext="${__${T(com.learnenglish.vocabulary.util.AttributeNames).MESSAGE}__}">Message</h2>
+    <h4 style="color:red" th:utext="${__${T(com.learnenglish.vocabulary.util.AttributeNames).MESSAGE}__}">Message</h4>
     <h1 th:text="${current_element_long_term.getTranslation()}"></h1>
     <h2>Choose correct form of the word</h2>
 
     <table border="1" cellpadding="5">
-        <thead>
-        <th>Answer</th>
-        <th>Choose this answer</th>
-        </thead>
-        <tbody>
+<!--        <thead>-->
+<!--        <th>Answer</th>-->
+<!--        <th>Choose this answer</th>-->
+<!--        </thead>-->
+<!--        <tbody>-->
         <tr th:if="${current_list_element_long_term.isEmpty()}">
             <td colspan="2">There no choose</td>
         </tr>
@@ -29,13 +29,15 @@
         <tr th:each="element, iStat : ${current_list_element_long_term}">
             <td><span th:text="${iStat.index+1}+'.'+${element.getEnglishWord()}">Word</span></td>
             <td>
-                <a name="toChallenge"
+<!--                th:text="${iStat.index+1}+'.'+${element.getEnglishWord()}"-->
+                <a th:text="choose"
+                        name="toChallenge"
                    th:href="@{${T(com.learnenglish.vocabulary.util.MyMappings).CHECK_AND_REDIRECT}(guess=${iStat.index}+1)}">
                     This is right
                 </a>
             </td>
         </tr>
-        </tbody>
+<!--        </tbody>-->
     </table>
 
 
