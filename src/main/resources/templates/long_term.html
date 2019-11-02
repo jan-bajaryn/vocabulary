@@ -6,8 +6,9 @@
     <meta charset="UTF-8">
     <title>The long term challenge</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
 </head>
-<body>
+<body ng-app="myapp" ng-controller="myctrl">
 
 <div align="center">
 
@@ -15,7 +16,7 @@
     <h2>There you can choose what base you want to learn</h2>
 
 
-    <input type="number" id="myInput" name="myInput" onchange="countOfTryings(this)">
+    <input type="number" id="myInput" name="myInput" ng-model="tryings" onchange="countOfTryings(this)">
 <!--    onkeyup-->
 
     <table border="1" cellpadding="5">
@@ -28,29 +29,37 @@
             <td colspan="2"> There no txt files</td>
         </tr>
 
-        <tr th:each="file : ${filenames}">
-            <td><span th:text="${file}">FileNameThere</span></td>
+        <tr ng-repeat="file in coll">
+            <td><span>{{file}}</span></td>
             <td>
-                <a name="toChallenge"
-                   th:href="@{${T(com.learnenglish.vocabulary.util.MyMappings).LONG_TERM_REALIZATION}(lowtfile=${file},countTr=1)}">
+                <a name="toChallenge" href="/long_term_realization?lowtfile={{file}}&countTr={{tryings}}">
                     Challenge file
                 </a>
 
             </td>
         </tr>
+
+<!--        <tr th:each="file : ${filenames}">-->
+<!--            <td><span th:text="${file}">FileNameThere</span></td>-->
+<!--            <td>-->
+<!--                <a name="toChallenge"-->
+<!--                   th:href="@{${T(com.learnenglish.vocabulary.util.MyMappings).LONG_TERM_REALIZATION}(lowtfile=${file},countTr=1)}">-->
+<!--                    Challenge file-->
+<!--                </a>-->
+<!--            </td>-->
+<!--        </tr>-->
+
+
         </tbody>
     </table>
 
-    <a name="toChallenge" href="http://aaa/?countTr=4">href my</a>
-    <script>
-        function countOfTryings(variable){
-        $('a[name="toChallenge"]').each(function () {
-            var oldUrl = $(this).attr("href"); // Get current url
-            var str = oldUrl.substring(0, oldUrl.indexOf("countTr"));
-            var newUrl = oldUrl.replace(oldUrl, str+"countTr="+variable.value); // Create new url
-            $(this).attr("href", newUrl); // Set herf value
+    <script th:inline="javascript">
+        var app = angular.module('myapp', []);
+        app.controller('myctrl', function ($scope) {
+            $scope.tryings = 1;
+            $scope.coll = [[${filenames}]];
         });
-        }
+
     </script>
 </div>
 
